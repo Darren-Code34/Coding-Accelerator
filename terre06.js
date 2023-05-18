@@ -8,4 +8,4 @@ function inversion(chaine){
     console.log(reversed);
 }
 
-inversion("mot")
+inversion("lehciM")
