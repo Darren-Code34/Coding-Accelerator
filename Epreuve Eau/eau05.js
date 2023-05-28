@@ -1,11 +1,11 @@
-function findString(str1,str2){
-    if(typeof(str1) === "string" && typeof(str2) === "string"){
+function findString(string1,string2){
+    if(typeof(string1) === "string" && typeof(string2) === "string"){
         let result = []
-        for(i = 0; i < str2.length; i++){
-            if(str1.indexOf(str2[i]) !== -1 ) {
+        for(i = 0; i < string2.length; i++){
+            if(string1.indexOf(string2[i]) !== -1 ) {
                 result.push(true)
             }
-            else if(str1.indexOf(str2[i]) === -1 ){
+            else if(string1.indexOf(string2[i]) === -1 ){
                 result.push(false)
             }
         }
