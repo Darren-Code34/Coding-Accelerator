@@ -1,5 +1,5 @@
 function selection(){
-    for(i =0; i < arguments.length; i++){
+    for(i = 0; i < arguments.length; i++){
         let min = i
         for(j = i+1; j <arguments.length; j++){
             if(arguments[j] < arguments[min]){
