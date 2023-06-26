@@ -7,3 +7,5 @@ function concatString(arr, separateur){
 }
 
 concatString(["je", "teste", "des", "trucs"], " ")
+
+module.exports = function() {concatString}

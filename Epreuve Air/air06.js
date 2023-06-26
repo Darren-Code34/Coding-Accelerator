@@ -14,3 +14,5 @@ function check(arrayOfStrings, str){
 }
 
 check(["Michel","Albert", "Thérèse", "Benoit"], "t")
+
+module.exports = function() {check}

@@ -19,3 +19,5 @@ function onlyOne(str){
 }
 
 onlyOne("Hello milady,   bien ou quoi ??")
+
+module.exports = function() {onlyOne}

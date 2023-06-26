@@ -9,3 +9,5 @@ function intruder(tab){
 }
 
 intruder(["bonjour", "monsieur", "bonjour"])
+
+module.exports = function() {intruder}

@@ -11,3 +11,5 @@ function splitString(){
 }
 
 splitString("Crevette magique dans la mer des étoiles", "la")
+
+module.exports = function() {splitString}

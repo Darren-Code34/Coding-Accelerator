@@ -19,3 +19,5 @@ function calcul(tab){
 }
 
 calcul([10,11,12,20,-5])
+
+module.exports = function(){calcul}

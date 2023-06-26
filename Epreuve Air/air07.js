@@ -16,3 +16,5 @@ function tabSorted(tab, num){
 }
 
 tabSorted([10, 20, 30, 40, 50, 60, 70, 90], 33)
+
+module.exports = function(){tabSorted}

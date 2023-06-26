@@ -20,3 +20,5 @@ function separer(){
 }
 
 separer("Bonjour les gars")
+
+module.exports = function()  {separer}
